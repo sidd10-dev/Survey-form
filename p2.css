@@ -1,0 +1,86 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #636566;
+}
+body
+{
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/y-so-serious-white.png");
+}
+#title
+{
+    text-align: center;
+}
+#description
+{
+    text-align: center;
+    font-size: 20;
+}
+#survey-form
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    background: linear-gradient(35deg,#393c3d,white);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+.submit-btn
+{   
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.labels
+{   
+    margin-bottom: 4px;
+    font-size: large;
+    color: white;
+}
+.input-text
+{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+#dropdown-label
+{
+    color: white;
+    margin-bottom: 4px;
+}
+#dropdown
+{
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+legend
+{
+    color: white;
+}
+fieldset
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.labels-rad
+{
+    color: white;;
+    font-size: medium;
+}
+#submit
+{
+    width: 100px;
+    height: 40px;
+    color:white;
+    background-color: black;
+}
+.textarea
+{
+    display: flex;
+    flex-direction: column;
+}
